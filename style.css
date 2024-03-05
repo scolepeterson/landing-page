@@ -1,0 +1,38 @@
+
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero { 
+    margin: 25px 300px 10px;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul { 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
