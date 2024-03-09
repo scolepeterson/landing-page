@@ -21,6 +21,30 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 150px;
+}
+
+.herocontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+    flex-shrink: 1;
+}
+
+.hcleft {
+    width: 600px;
+    height: 300px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    background-color: white;
 }
 
 h1 {
@@ -28,6 +52,19 @@ h1 {
     font-size: 24px;
 }
 
+.herosecondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.herob{
+    height:40px;
+    width: 125px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
 ul { 
     display: flex;
     justify-content:space-around;
